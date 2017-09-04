@@ -2,7 +2,9 @@
 title: "Cosmoprof Asia"
 layout: post
 date: 2016-01-01
-tag: jekyll
+tag: 
+-CMS
+-DNN
 image: /images/ca_logo.png
 headerImage: true
 projects: true
