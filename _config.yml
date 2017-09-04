@@ -10,6 +10,9 @@ description: Profile
 external-image: false
 picture: assets/images/profile.jpg
 
+# animations?
+animate: true
+
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: false
