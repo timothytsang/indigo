@@ -3,8 +3,8 @@ title: "Cosmoprof Asia"
 layout: post
 date: 2016-01-01
 tag: 
--CMS
--DNN
+- CMS
+- DNN
 image: /images/ca_logo.png
 headerImage: true
 projects: true
