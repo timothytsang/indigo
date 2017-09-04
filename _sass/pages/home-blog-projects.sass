@@ -1,7 +1,9 @@
 .home,
-.blog,
-.projects
-    margin-top: 125px
+.blog
+    margin-top: 75px
+    
+    @media #{$mobile}
+        margin-top: 20px !important
 
     > .list
         border-top: 1px solid $epsilon
@@ -24,8 +26,7 @@
             border-radius: 3px
 
 .home > .list,
-.blog > .list,
-.projects > .list
+.blog > .list
     > .item
         display: block
         width: 95%
@@ -72,3 +73,26 @@
         position: relative
         top: -4px
         margin-right: 10px
+       
+.projects
+    margin-top: 125px
+    
+    > .list
+        display: table
+        .item
+            display: table-row
+
+        .image
+            display: table-cell
+            overflow: visible
+            padding: 15px 25px 15px 0
+            width: 140px
+            // need the follow tag to ensure IE11 doesn't oversize the images held in the div
+            img
+                width: 140px
+
+        .detail
+            display: table-cell
+            vertical-align: middle
+            .subtitle
+                font-size: 1.3rem
